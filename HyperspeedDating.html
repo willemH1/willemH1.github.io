@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-holder">
+            <div class="logo">W</div>
+            <div class="logo-text">Willem Hollants</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="games.html">Games</a>
+                </li>
+                <li>
+                    <a href="art.html">Art</a>
+                </li>
+                <li>
+                    <a href="index.html">Skills</a>
+                </li>
+                <li>
+                    <a href="mailto:willem.hollants@hotmail.com" class="button">Contact me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg>
+                  
+            </a>
+        </nav>
+        
+
+    </header>
+    <main>
+        <section >
+            <div class="banner-area" style="background-image:  url(imgs/HyperspeedDating/HyperSpeedDatingBanner.png);">
+                <h2>
+                    Hyperspeed Dating
+                    <small>Unwrap game jam submission | 2024</small>
+                </h2>
+            </div>
+        </section>
+        <section class="game-page container">
+            <div class="bottom-row">
+                <div class="bottom-row-item">
+                    <small>softwares used</small>
+                    <div class="image-row">
+                        <img src="imgs/Audacity_Logo.svg.png" width="60px" alt="Blender">
+                        <img src="imgs/Unity.png" width="60px" alt="Unity">
+                        <img src="imgs/vscode.png" width="60px" alt="vsCode">
+                        <img src="imgs/Photoshop.png" width="60px" alt="PSD">
+
+                    </div>
+                </div>
+                
+                <div class="bottom-row-item">
+                    <small>development time</small>
+                    <div class="image-row">
+                        
+                        <p>3 days</p>
+                    </div>
+                </div>
+               
+                <div class="bottom-row-item">
+                    <small>team size</small>
+                    <div class="image-row">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+        <section class="skills container">
+            <h2>
+                <small>Hyperspeed Dating</small>
+                Overview
+            </h2>
+            <div class="holder-blue">
+                <div class = "left-column">
+                    <h3>Gameplay</h3>
+                    <p>
+                        "Hyper Speed Dating With Totally Normal Characters" is a dating sim featuring limited time interactions and uncanny characters. This game was developed during the Unwrap game jam by a team of six, including two character artists, one 3D artist for backgrounds, one musician, and two programmers, myself being one of the programmers.
+                        </p>
+                </div>
+                <div class="right-column">
+                    <div style="padding-top: 30px;"><iframe width="620" height="315"
+                        src="https://www.youtube.com/embed/ej4o-Ift1Vs">
+                        </iframe> </div> 
+                </div>
+            </div>            
+        </section>
+        <h2>
+            Main takeaways
+        </h2>
+
+        <section class="Information container">
+        <div class="left-column">
+            <h3>Game design</h3>
+           <p>
+            The theme of the jam was "Keep it moving," which inspired us to create a speed dating concept. We decided to take it to the extreme by giving players only 15 seconds to get to know each prospect. To add to the fun, we also designed some goofy, unconventional characters.
+           </p>
+<img src="imgs/HyperspeedDating/Piroutette3.png" style="width: 100%; padding-top: 30px;" alt="Piroutette">
+
+
+        </div>
+        <div class="right-column">
+            <h3>Transitions & effects</h3>
+            <p>
+                In addition to some extra programming, my main focus was on enhancing the game's feel by adding "juice", such as smooth transitions, appealing animations, and engaging effects.
+                </p>
+                <img src="imgs/HyperspeedDating/KeepItMoving.png" style="width: 100%; padding-top: 30px;" alt="Piroutette">
+
+        </div>    
+        </section>
+        
+     
+            <section class="Information container" >
+                <div style="
+                flex:1;
+                border-radius:30px;
+                padding:30px;
+                    flex:1;
+                display: flex;
+                flex-direction: column;">
+<iframe frameborder="0" style="align-self: center;" src="https://itch.io/embed/2529304" width="552" height="167"><a href="https://monkey-niples.itch.io/hyper-speed-dating">Hyper Speed Dating by Monkey Nipples, RotundRodent, Lou Bergs, Warre Adriaensen, WillemH, cazndra</a></iframe>                
+                </div>
+    </main>
+</body>
+</html>
