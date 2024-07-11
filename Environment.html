@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-holder">
+            <div class="logo">W</div>
+            <div class="logo-text">Willem Hollants</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="games.html">Games</a>
+                </li>
+                <li>
+                    <a href="art.html">Art</a>
+                </li>
+                <li>
+                    <a href="index.html">Skills</a>
+                </li>
+                <li>
+                    <a href="mailto:willem.hollants@hotmail.com" class="button">Contact me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg>
+                  
+            </a>
+        </nav>
+        
+
+    </header>
+    <main>
+        
+        <section class="skills container">
+            <h2>
+                <small>Stylized Unity Environment</small>
+                Overview
+            </h2>
+            <div class="holder-blue">
+                <div class = "left-column">
+                    <h3>Process</h3>
+                    <p>
+                        The building was created using a modular asset approach, with assets modeled and unwrapped in Blender, textured in Substance Painter, and then imported into Unity. The foliage was created using Unity Shader Graph, particles like leaves and butterflies were generated with Unity's Particle System, and the trees were made using Tree.It. The scene is game-ready and optimized for performance, with LODs, static batching, and GPU instancing significantly reducing draw calls.                        </p>
+                </div>
+                <div class="right-column">
+                    <video src="videos/Environment/UnityStylizedEnvironment.mp4 " width="100%" autoplay muted loop></video>
+                </div>
+            </div>            
+        </section>
+        
+        <section class="work-experience container">
+            <div class="centered-container">
+                <img src="imgs/Environment/Exam_Master_Willem_Hollants.png" style="width: 80%;" alt="">
+            </div>
+            <div class="centered-container">
+                <img src="imgs/Environment/Exam_02_Willem_Hollants.png" style="width: 80%;" alt="">
+            </div>
+            <div class="centered-container">
+                <img src="imgs/Environment/Exam_03_Willem_Hollants.png" style="width: 80%;" alt="">
+            </div>
+            <div class="centered-container">
+              <video src="videos//2IGP13_E_Hollants_Willem_robuddy_Blender.mp4 " autoplay muted loop></video>
+            </div>      
+        
+        
+        </section>
+     
+           
+    </main>
+</body>
+</html>

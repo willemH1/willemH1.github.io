@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-holder">
+            <div class="logo">W</div>
+            <div class="logo-text">Willem Hollants</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="games.html">Games</a>
+                </li>
+                <li>
+                    <a href="art.html">Art</a>
+                </li>
+                <li>
+                    <a href="index.html">Skills</a>
+                </li>
+                <li>
+                    <a href="mailto:willem.hollants@hotmail.com" class="button">Contact me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg>
+                  
+            </a>
+        </nav>
+        
+
+    </header>
+    <main>
+        <section >
+            <div class="banner-area" style="background-image:  url(imgs/FiveSavesTheUniverse/BannerFiveSavesTheUniverse.png);">
+                <h2>
+                    Five Saves The Universe
+                    <small>Client game | 2024</small>
+                </h2>
+            </div>
+        </section>
+        <section class="game-page container">
+            <div class="bottom-row">
+                <div class="bottom-row-item">
+                    <small>softwares used</small>
+                    <div class="image-row">
+                        <img src="imgs/Blender.png" width="60px" alt="Blender">
+                        <img src="imgs/Photoshop.png" width="60px" alt="PSD">
+                        <img src="imgs/Substance.png" width="60px" alt="Substance">
+                        <img src="imgs/Unity.png" width="60px" alt="Unity">
+                        <img src="imgs/Miro.png" width="60px" alt="Miro">
+                        <img src="imgs/Audacity_Logo.svg.png" width="60px" alt="Audacity_Logo">
+
+                    </div>
+                </div>
+                
+                <div class="bottom-row-item">
+                    <small>development time</small>
+                    <div class="image-row">
+                        
+                        <p>4 months</p>
+                    </div>
+                </div>
+               
+                <div class="bottom-row-item">
+                    <small>team size</small>
+                    <div class="image-row">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+        <section class="skills container">
+            <h2>
+                <small>Five Saves The Universe</small>
+                Overview
+            </h2>
+            <div class="holder-blue">
+                <div class = "left-column">
+                    <h3>Gameplay</h3>
+                    <p>
+                        "Five Saves The Universe" is an educational mobile game designed to teach kids how to navigate traffic. It was created for <a href="https://www.ikhighfive.be/">High-Five</a> as part of a university course where we were grouped and assigned a client to create a game for. 
+                       
+                    </p>
+                    <br>
+                    <p>
+                        The game involves solving puzzles by using road signs. The player has to help the superhero “Five” defeat the evil space-pirates invading earth. The pirates have created smogtaminationmachines, which are polluting the air with smog and only Five can stop them.
+                    </p>
+                </div>
+                <div class="right-column">
+                    <video src="videos/FiveSavesTheUniverse/Gameplay.mp4" width="100%" autoplay muted loop></video>
+                </div>
+            </div>            
+        </section>
+        <h2>
+            My Contribution
+        </h2>
+
+        <section class="Information container">
+        <div class="left-column">
+            <h3>Story & Worldbuilding</h3>
+           <p>
+            I was in charge of writing the story and dialogue for the game. This was essential for giving the player context for the motives of the main hero. The client had an existing universe and storyline that I had to expand upon, which wasn’t easy at first. I tried to look for ways to incorporate the previously set up story and universe into our game. That’s how I came up with the idea of different planets which allowed us to have different stages of difficulty, with the final planet being the most difficult. </p>
+           <img src="imgs/FiveSavesTheUniverse/FiveSavesTheUniverse.png" width="100%" style="padding-top: 40px;" alt="WhenPigsFly">
+        </div>
+        <div class="right-column">
+            <h3>Dialogue</h3>
+            <p>The dialogue was also important not only to give story context but also to teach players about new mechanics. Through our many playtest sessions, I learned that players don’t appreciate too much dialogue, especially not children. So I had to find ways to say all the information but in a short and concise way.</p>
+            <video src="videos/FiveSavesTheUniverse/Dialogue.mp4" width="100%" autoplay muted loop></video>
+        </div>    
+        </section>
+        <section class="Information container">
+            <div class="left-column">
+                <h3>3D Assets</h3>
+               <p>
+                Our art lead managed the overall 3D look and style of the game. I contributed by creating a substantial number of 3D assets. We utilized a toon shader in Unity for shading, which streamlined our pipeline and greatly reduced the time needed for texturing.</p>
+               <img src="imgs/FiveSavesTheUniverse/Assets.png" width="100%" style="padding-top: 40px;" alt="WhenPigsFly">
+            </div>
+            <div class="right-column">
+                <h3>Animations & Particles</h3>
+                <p>I handled most of the animations and particle systems. In the animations, we kept the core principles of animation in mind like; squash and stretch, anticipation, easing, follow-through,.. For the particle systems, I utilized many rounded shapes and combined multiple simple particles to create dynamic effects.</p>
+                <video src="videos/FiveSavesTheUniverse/Explosions.mp4" width="80%" autoplay muted loop></video>
+            </div>    
+            </section>
+            <h2>
+                Extra
+            </h2>
+           <section class="Information container">
+            <div class="left-column">
+                <h3>Playtesting</h3>
+               <p>
+                Throughout the game's development, we organized multiple playtest sessions. Since our target audience was children aged 6-12, we visited elementary schools to gather feedback. We ensured diverse age groups to fine-tune the difficulty appropriately. Using Google Forms to record the data allowed us to visualize the feedback clearly and comprehensively.</p>
+                <video src="videos/FiveSavesTheUniverse/GoogleSheets.mp4" width="100%" autoplay muted loop></video>
+            </div>
+            <div class="right-column">
+                <h3>Level editor</h3>
+                <p>Our <a href="https://deketele.dev/">skilled lead engineer</a> developed a level editor system that enabled us to quickly implement new levels. Coupled with a node system, this made the game's code highly optimized and easily expandable with new features.</p>
+                <img src="imgs/FiveSavesTheUniverse/LevelEditor.png" style="padding-top: 30px;" width="100%" alt="LevelEditor">
+            </div>    
+            </section>
+    </main>
+</body>
+</html>

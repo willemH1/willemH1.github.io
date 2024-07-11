@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-holder">
+            <div class="logo">W</div>
+            <div class="logo-text">Willem Hollants</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="games.html">Games</a>
+                </li>
+                <li>
+                    <a href="art.html">Art</a>
+                </li>
+                <li>
+                    <a href="index.html">Skills</a>
+                </li>
+                <li>
+                    <a href="mailto:willem.hollants@hotmail.com" class="button">Contact me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg>
+                  
+            </a>
+        </nav>
+        
+
+    </header>
+    <main>
+        <section >
+            <div class="banner-area" style="background-image:  url(imgs/ASeedyPlace/Background.png);">
+                <h2>
+                    A Seedy Place
+                    <small>Prototype | 2023</small>
+                </h2>
+            </div>
+        </section>
+        <section class="game-page container">
+            <div class="bottom-row">
+                <div class="bottom-row-item">
+                    <small>softwares used</small>
+                    <div class="image-row">
+                        <img src="imgs/Audacity_Logo.svg.png" width="60px" alt="Blender">
+                        <img src="imgs/Unity.png" width="60px" alt="Unity">
+                        <img src="imgs/vscode.png" width="60px" alt="vsCode">
+                        <img src="imgs/Photoshop.png" width="60px" alt="Photoshop">
+                        <img src="imgs/Miro.png" width="60px" alt="Miro">
+
+                    </div>
+                </div>
+                
+                <div class="bottom-row-item">
+                    <small>development time</small>
+                    <div class="image-row">
+                        
+                        <p>3 weeks</p>
+                    </div>
+                </div>
+               
+                <div class="bottom-row-item">
+                    <small>team size</small>
+                    <div class="image-row">
+                        <img src="imgs/Person.png" width="50px" alt="PSD">
+                
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+        <section class="skills container">
+            <h2>
+                <small>A Seedy Place</small>
+                Overview
+            </h2>
+            <div class="holder-blue">
+                <div class = "left-column">
+                    <h3>Gameplay</h3>
+                    <p>I wanted to create a game which blends restaurant management, farming, and defense mechanics, providing a unique gaming experience. Players have to plant crops, protect them from pests, bake goods, and sell the right goods to the customers. The prototype was made as part of a game design course where we were tasked with turning a trip to a museum into a game prototype. 
+
+                        </p>
+                </div>
+                <div class="right-column">
+                    <video src="videos/ASeedyPlace/gameplay1.mp4" width="100%" autoplay muted loop></video>
+                </div>
+            </div>            
+        </section>
+        <h2>
+            Main takeaways
+        </h2>
+
+        <section class="Information container">
+        <div class="left-column">
+            <h3>Genre fusion</h3>
+           <p>
+            I wanted to create a game which blends restaurant management, farming, and defense mechanics, providing a unique gaming experience. Players have to plant crops, protect them from pests, bake goods, and sell the right goods to the customers.           </p>
+            <video src="videos/ASeedyPlace/Gameplay2.mp4" width="100%" autoplay muted loop></video>
+
+        </div>
+        <div class="right-column">
+            <h3>Documentation</h3>
+            <p>
+                As part of our game design course, we were required to thoroughly document our design process, detailing all the decisions we made along the way in Miro. Additionally, we had to create a very short and comprehensive Game Design Document, which you can find here: <a href="ASeedyPlaceGameDesignDocument.pdf">ASeedyPlaceGDD</a>.
+                </p>
+                <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVNKJLfAo=/?moveToViewport=42949,-1984,42466,20326&embedId=413347124998" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>            </div>    
+        </section>
+        
+     
+            <section class="Information container" >
+                <div style="
+                flex:1;
+                border-radius:30px;
+                padding:30px;
+                    flex:1;
+                display: flex;
+                flex-direction: column;">
+                </div>
+    </main>
+</body>
+</html>
